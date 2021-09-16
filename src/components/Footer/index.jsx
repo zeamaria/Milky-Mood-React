@@ -1,11 +1,12 @@
 import React from "react";
+import { Footer, H2, H2Middle } from "./styles";
 
 const FooterComponent = () => (
-  <div>
-    <h2>June 16</h2>
-    <h2>World Tour</h2>
-    <h2>Aug 16</h2>
-  </div>
+  <Footer>
+    <H2>June 16</H2>
+    <H2Middle>World Tour</H2Middle>
+    <H2>Aug 16</H2>
+  </Footer>
 );
 
 export default FooterComponent;
