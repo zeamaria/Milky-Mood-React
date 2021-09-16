@@ -1,16 +1,15 @@
 import React from "react";
 import { GlobalStyle } from "./styles";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 const App = () => {
-  const message = (name) => {
-    return `${name} is a student!`;
-  };
   return (
-    <div className="App">
+    <>
       <GlobalStyle />
-      <h1>Hello CodeSandbox</h1>
-      <h2>{message`Zea`}</h2>
-    </div>
+      <Header />
+      <Footer />
+    </>
   );
 };
 
