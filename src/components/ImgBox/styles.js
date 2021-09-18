@@ -6,4 +6,6 @@ export const Image = styled.div`
   height: 100px;
   width: 100px;
   position: relative;
+  background-position: ${({ $initalX, $initalY }) =>
+    `-${$initalX * 100}px -${$initalY * 100}px`};
 `;
